@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import moment from 'moment';
-import api from '../services/api';
+import api from '../../services/api';
 
-import Logo from '../assets/logo.png';
+import Logo from '../../assets/logo.png';
 
 import { Container, Form } from './styles';
-import CompareList from '../components/CompareList';
+import CompareList from '../../components/CompareList';
 
 export default class Main extends Component {
   state = {
